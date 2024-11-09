@@ -42,6 +42,7 @@ function getPointGen() {
 		return new Decimal(0)
 
 	let gain = new Decimal(1)
+    gain = gain.mul(tmp.oleg.diamondEffect)
 	return gain
 }
 
